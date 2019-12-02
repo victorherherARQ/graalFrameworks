@@ -45,3 +45,18 @@
 
 
 
+
+#QUARKUS
+<ul>
+<li><b>Getting Started:</b> https://quarkus.io/get-started/</li>
+<li><b>New Project:</b> https://code.quarkus.io/</li>
+</ul>
+
+#MICRONAUT
+<ul>
+<li>
+<b>Getting Started:</b> https://guides.micronaut.io/creating-your-first-micronaut-app/guide/</li>
+<li><b>New Project:</b>$ mn create-app micronaut --build maven</li>
+</ul>
+
+
