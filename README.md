@@ -1,8 +1,11 @@
 # GRAALVM
 
 ## ¿Para que usar Graal?
+<p>Graal nos referencia al siguiente articulo donde aparecen 10 de las razones más importantes para usar Graal</p>
+
 [¿Por qué usar GRAALVM?](https://medium.com/graalvm/graalvm-ten-things-12d9111f307d)
 
+<p>Nosotros nos vamos a centrar en 4 de ellos, que pueden ser interesantes para su inclusión en producción:</p>
 
 ### GRAAL Como Compilador JIT (Just In Time)
 
@@ -44,19 +47,20 @@
 [Clang](https://clang.llvm.org/) y [lli](https://releases.llvm.org/1.0/docs/CommandGuide/lli.html) command (un interprete LLVM bitcode )</p>
 
 
+# FRAMEWORKS AOT
 
-
-#QUARKUS
+## QUARKUS
 <ul>
 <li><b>Getting Started:</b> https://quarkus.io/get-started/</li>
 <li><b>New Project:</b> https://code.quarkus.io/</li>
 </ul>
 
-#MICRONAUT
+## MICRONAUT
 <ul>
 <li>
 <b>Getting Started:</b> https://guides.micronaut.io/creating-your-first-micronaut-app/guide/</li>
 <li><b>New Project:</b>  <code>$ mn create-app micronaut --build maven</code></li>
 </ul>
+
 
 
