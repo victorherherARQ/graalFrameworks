@@ -1,10 +1,10 @@
-#GRAALVM
+# GRAALVM
 
-##¿Para que usar Graal?
+## ¿Para que usar Graal?
 [¿Por qué usar GRAALVM?](https://medium.com/graalvm/graalvm-ten-things-12d9111f307d)
 
 
-##GRAAL Como Compilador JIT (Just In Time)
+### GRAAL Como Compilador JIT (Just In Time)
 
 <p>Uno de los primeros pasos que se pueden hacer con Graal es usarlo como compilador Just In Time, Twitter lo usa en producción.</p>
 
@@ -21,11 +21,11 @@
 
 
 
-##GRAAL como Compilador AOT(Ahead Of Time)
+### GRAAL como Compilador AOT(Ahead Of Time)
 
 <p>Java como plataforma es particularmente fuerte para procesos long-running y con picos de rendimiento. Pero si que sufre con procesos short-running y un alto uso de memoria </p>
 
-##GRAAL para Combinar varios lenguajes de programación (Javascript, Java, Ruby y R)
+### GRAAL para Combinar varios lenguajes de programación (Javascript, Java, Ruby y R)
 
 <p>Para poder utilizar todo ello se utiliza un nuevo framework que se llama:</p>
 
@@ -33,9 +33,9 @@
 
 
 
-<p>De tal manera que Truffle utiliza Graal por detrás generando el compilado con el lenguaje interpretado</p>
+<p>De tal manera que Truffle utiliza Graal por detrás genera el compilado con el lenguaje interpretado</p>
 
-##GRAAL para Lenguajes Nativos (C, C++)
+### GRAAL para Lenguajes Nativos (C, C++)
 
 
 
