@@ -56,7 +56,7 @@
 <ul>
 <li>
 <b>Getting Started:</b> https://guides.micronaut.io/creating-your-first-micronaut-app/guide/</li>
-<li><b>New Project:</b>$ mn create-app micronaut --build maven</li>
+<li><b>New Project:</b>  <code>$ mn create-app micronaut --build maven</code></li>
 </ul>
 
 
