@@ -27,4 +27,21 @@
 
 ##GRAAL para Combinar varios lenguajes de programación (Javascript, Java, Ruby y R)
 
-<p>Para poder utilizar todo ello </p>
+<p>Para poder utilizar todo ello se utiliza un nuevo framework que se llama:</p>
+
+[Truffle](https://github.com/oracle/graal/tree/master/truffle)
+
+
+
+<p>De tal manera que Truffle utiliza Graal por detrás generando el compilado con el lenguaje interpretado</p>
+
+##GRAAL para Lenguajes Nativos (C, C++)
+
+
+
+<p>Otro lenguaje que soportar Graal es C y otros lenguajes que generen LLVM como C++ y Fortran. Generando LLVM bitcode, utilizando para ello por ejemplo:
+
+[Clang](https://clang.llvm.org/) y [lli](https://releases.llvm.org/1.0/docs/CommandGuide/lli.html) command (un interprete LLVM bitcode )</p>
+
+
+
