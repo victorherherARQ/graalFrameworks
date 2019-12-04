@@ -1,7 +1,8 @@
 # GRAALVM
 
 ## ¿Para que usar Graal?
-<p>Graal nos referencia al siguiente articulo donde aparecen 10 de las razones más importantes para usar Graal</p>
+
+<p> Graal nos referencia al siguiente articulo donde aparecen 10 de las razones más importantes para usar Graal</p>
 
 [¿Por qué usar GRAALVM?](https://medium.com/graalvm/graalvm-ten-things-12d9111f307d)
 
@@ -41,21 +42,26 @@
 ### GRAAL para Lenguajes Nativos (C, C++)
 
 
-
 <p>Otro lenguaje que soportar Graal es C y otros lenguajes que generen LLVM como C++ y Fortran. Generando LLVM bitcode, utilizando para ello por ejemplo:
 
 [Clang](https://clang.llvm.org/) y [lli](https://releases.llvm.org/1.0/docs/CommandGuide/lli.html) command (un interprete LLVM bitcode )</p>
 
+# Herramientas útiles para trabajar con Graal y Frameworks AOT
+<ul>
+<li><b>Sdkman: </b>https://sdkman.io/</li>
+<li><b>Pluggin Visual Studio Code for Quarkus: </b>https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus&ssr=false#overview</li>
+</ul>
 
-# FRAMEWORKS AOT
 
-## QUARKUS
+# Frameworks AOT
+
+## Quarkus
 <ul>
 <li><b>Getting Started:</b> https://quarkus.io/get-started/</li>
 <li><b>New Project:</b> https://code.quarkus.io/</li>
 </ul>
 
-## MICRONAUT
+## Micronaut
 <ul>
 <li>
 <b>Getting Started:</b> https://guides.micronaut.io/creating-your-first-micronaut-app/guide/</li>
