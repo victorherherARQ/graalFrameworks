@@ -1,4 +1,4 @@
-package com.graal.poc.customer;
+package com.graal.poc.customer.resource;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
