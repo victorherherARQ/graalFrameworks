@@ -61,6 +61,16 @@
 <li><b>New Project:</b> https://code.quarkus.io/</li>
 </ul>
 
+### Comandos necesarios
+<ul>
+<li>Compilar y desarrollar: <code>$mvn compile quarkus:dev</code></li>
+<li>Listar las extensiones de quarkus: <code>$mvn quarkus:list-extensions</code></li>
+<li>Añadir extensión: <code>$ mvn quarkus:add-extension -Dextensions="groupId:artifactId"</code></li>
+
+ 
+</ul>
+
+
 ## Micronaut
 <ul>
 <li>
