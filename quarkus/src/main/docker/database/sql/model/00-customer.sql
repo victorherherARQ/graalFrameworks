@@ -59,4 +59,4 @@ alter table db.customer comment 'Tabla de clientes';
 -- ------------------------------------------------------
 --  End of DDL for Table CUSTOMER
 -- ------------------------------------------------------
-
+INSERT INTO db.customer values("1","victor.hernandez@diagroup.com",NULL);

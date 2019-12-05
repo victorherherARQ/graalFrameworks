@@ -61,11 +61,12 @@
 <li><b>New Project:</b> https://code.quarkus.io/</li>
 </ul>
 
-### Comandos necesarios
+### Comandos de utilidad
 <ul>
 <li>Compilar y desarrollar: <code>$mvn compile quarkus:dev</code></li>
 <li>Listar las extensiones de quarkus: <code>$mvn quarkus:list-extensions</code></li>
 <li>Añadir extensión: <code>$ mvn quarkus:add-extension -Dextensions="groupId:artifactId"</code></li>
+<li>Generar un jar nativo:<code> mvn package -Pnative</code>
 
  
 </ul>
