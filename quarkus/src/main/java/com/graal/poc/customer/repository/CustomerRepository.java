@@ -1,8 +1,8 @@
-package com.graal.poc.repository;
+package com.graal.poc.customer.repository;
 
 import javax.enterprise.context.ApplicationScoped;
 
-import com.graal.poc.entity.CustomerEntity;
+import com.graal.poc.customer.entity.CustomerEntity;
 
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 @ApplicationScoped

@@ -1,4 +1,4 @@
-package com.graal.poc.entity;
+package com.graal.poc.customer.entity;
 
 import java.util.Date;
 

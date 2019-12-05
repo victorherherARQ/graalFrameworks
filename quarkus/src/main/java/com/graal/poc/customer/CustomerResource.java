@@ -1,4 +1,4 @@
-package com.graal.poc;
+package com.graal.poc.customer;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -9,8 +9,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.graal.poc.entity.CustomerEntity;
-import com.graal.poc.repository.CustomerRepository;
+import com.graal.poc.customer.entity.CustomerEntity;
+import com.graal.poc.customer.repository.CustomerRepository;
 
 @Path("/customer")
 @Produces(MediaType.APPLICATION_JSON)
