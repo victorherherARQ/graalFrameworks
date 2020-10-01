@@ -62,7 +62,7 @@ public class CustomerResource {
 
 		CustomerEntity customerEntity = new CustomerEntity();
 		customerEntity.email = email;
-		customerRepository.delete(customerEntity);
+		customerRepository.delete("email",email);
 		log.info("Deleting Entity.....");
 		return customerEntity;
 	}

@@ -11,23 +11,23 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class CustomerResourceTest {
 
-/*	@Test
+	@Test
 	@Order(1)  
 	public void testPostEndpoint() {
 		given().when().post("/customer/victor.test@gmail.com").then().statusCode(200);
-	}*/
+	}
 
-//	@Test
-//	@Order(2)
-/*	public void testGetEndpoint() {
+	@Test
+	@Order(2)
+	public void testGetEndpoint() {
 		given().when().get("/customer/victor@gmail.com").then().statusCode(200).body("email",
 				is("victor@gmail.com"));
 	}
-*/
-/*	@Test
+
+	@Test
 	@Order(3)
 	public void testDeleteEndpoint() {
 		given().when().delete("/customer/victor.test@gmail.com").then().statusCode(200);
 	}
-*/
+
 }
