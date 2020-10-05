@@ -1,3 +1,10 @@
+# Quarkus
+
+<ul>
+<li><b>Definición General RedHat:</b> https://www.redhat.com/es/topics/cloud-native-apps/what-is-quarkus</li>
+<li><b>Reactivo vs imperativo:</b> https://developers.redhat.com/blog/2019/11/18/how-quarkus-brings-imperative-and-reactive-programming-together/</li>
+</ul>
+
 # GRAALVM
 
 ## ¿Para que usar Graal?
@@ -21,11 +28,9 @@
 <li>GraalVM Community Edition based on OpenJDK 11.0.5</li>
 </ol>
 
-
-
-
-
 ### GRAAL como Compilador AOT(Ahead Of Time)
+
+<p>Así disminuimos el "problema" del arranque lento y la huella memoria</p>
 
 <p>Java como plataforma es particularmente fuerte para procesos long-running y con picos de rendimiento. Pero si que sufre con procesos short-running y un alto uso de memoria </p>
 
@@ -35,49 +40,44 @@
 
 [Truffle](https://github.com/oracle/graal/tree/master/truffle)
 
-
-
 <p>De tal manera que Truffle utiliza Graal por detrás genera el compilado con el lenguaje interpretado</p>
 
 ### GRAAL para Lenguajes Nativos (C, C++)
-
 
 <p>Otro lenguaje que soportar Graal es C y otros lenguajes que generen LLVM como C++ y Fortran. Generando LLVM bitcode, utilizando para ello por ejemplo:
 
 [Clang](https://clang.llvm.org/) y [lli](https://releases.llvm.org/1.0/docs/CommandGuide/lli.html) command (un interprete LLVM bitcode )</p>
 
 # Herramientas útiles para trabajar con Graal y Frameworks AOT
+
 <ul>
 <li><b>Sdkman: </b>https://sdkman.io/</li>
 <li><b>Pluggin Visual Studio Code for Quarkus: </b>https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus&ssr=false#overview</li>
 </ul>
 
-
 # Frameworks AOT
 
 ## Quarkus
+
 <ul>
 <li><b>Getting Started:</b> https://quarkus.io/get-started/</li>
 <li><b>New Project:</b> https://code.quarkus.io/</li>
 </ul>
 
 ### Comandos de utilidad
+
 <ul>
 <li>Compilar y desarrollar: <code>$mvn compile quarkus:dev</code></li>
 <li>Listar las extensiones de quarkus: <code>$mvn quarkus:list-extensions</code></li>
 <li>Añadir extensión: <code>$ mvn quarkus:add-extension -Dextensions="groupId:artifactId"</code></li>
 <li>Generar un jar nativo:<code> mvn package -Pnative</code>
 
- 
 </ul>
 
-
 ## Micronaut
+
 <ul>
 <li>
 <b>Getting Started:</b> https://guides.micronaut.io/creating-your-first-micronaut-app/guide/</li>
 <li><b>New Project:</b>  <code>$ mn create-app micronaut --build maven</code></li>
 </ul>
-
-
-

@@ -58,13 +58,13 @@ public class CustomerResource {
 	@Transactional
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
-	public CustomerEntity deleteCustomer(@PathParam("email") String email) {
+	public void deleteCustomer(@PathParam("email") String email) {
 
-		CustomerEntity customerEntity = new CustomerEntity();
-		customerEntity.email = email;
+		//CustomerEntity customerEntity = new CustomerEntity();
+		//customerEntity.email = email;
 		customerRepository.delete("email",email);
 		log.info("Deleting Entity.....");
-		return customerEntity;
+		//return customerEntity;
 	}
 
 }
