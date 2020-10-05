@@ -35,21 +35,13 @@ FLUSH PRIVILEGES ;
 -- ------------------------------------------------------
 create table db.customer
 (
--- Es un valor que se genera de forma automática y que identifica de forma unica al cliente. No se puede modificar y será la clave foránea en otras tablas para identificar al cliente.
--- Se debe corresponder con el Id de usuario web actual de Hybris que identifica a un cliente y en la migración será ese valor.
+
 	id int(10) not null auto_increment comment 'Id de customer', 
 	email varchar(128) not null comment 'email que sirve para identificarse y para enviarle notificaciones',
 	signup_date timestamp comment 'Fecha de alta del cliente',	
 	constraint customer_pk primary key (id)
 );
 
--- ------------------------------------------------------
--- Indexes for Table CUSTOMER
--- ------------------------------------------------------
--- Indice necesario para establecer la FK entre customer4legalconditions y customer.
--- Se incluye el pais porque forma parte de la pk de legal_conditions y así evitamos incongruencias en
--- la relación.
--- create unique index customer_idx_01 on customer(id, system_country_id);
 
 
 -- ------------------------------------------------------
