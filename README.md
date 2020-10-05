@@ -7,6 +7,8 @@
 
 # GRAALVM
 
+![See img/graalvm_architecture.png][img/graalvm_architecture.png]
+
 ## ¿Para que usar Graal?
 
 <p> Graal nos referencia al siguiente articulo donde aparecen 10 de las razones más importantes para usar Graal</p>
